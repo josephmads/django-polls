@@ -1,0 +1,8 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+<h1>Welcome to Polls Site</h1>
+    <h2>The world's most important questions are asked here.</h2>
+        <p>Go here to see a poll: <a href="{% url 'polls:index' %}">Polls</a></p>
+{% endblock content %}
+    
